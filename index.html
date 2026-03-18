@@ -1,148 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advisor-Home</title>
+    <title>Advisor - Business Consulting</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-<link rel="stylesheet" href="./index.css">
-
 <body>
     <div class="app">
-        <div class="home">
+        <header class="nav-container">
             <nav class="nav-bar">
                 <div id="logo">
-                <img  src="./logo.png" alt=""></div>
+                    <img src="./logo.png" alt="Logo">
+                </div>
                 <ul class="nav-option">
-                    <img src="https://img.icons8.com/?size=100&id=8113&format=png&color=000000" alt="">
-                    <li class="nav-list">HOME <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12"
-                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="rgb(255, 255, 255)"
-                                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z" />
-                        </svg></li>
-                    <li class="nav-list">PAGES <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12"
-                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="rgb(255, 255, 255)"
-                                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z" />
-                        </svg></li>
-                    <li class="nav-list">SERVICES <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12"
-                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="rgb(255, 255, 255)"
-                                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z" />
-                        </svg></li>
-                    <li class="nav-list">PROJECTS <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12"
-                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="rgb(255, 255, 255)"
-                                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z" />
-                        </svg></li>
-                    <li class="nav-list">BLOG <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12"
-                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                            <path fill="rgb(255, 255, 255)"
-                                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z" />
-                        </svg></li>
-                    <li class="nav-list">CONTACT</li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
                 <div class="suggest">
-                    <img height="19" style="position: relative;top: 5px;"
-                        src="./search-magnifying-glass-white-icon.svg" alt="search" />
-                    <button class="quote">FREE QUOTE</button>
+                    <div class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512">
+                            <path fill="white" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+                        </svg>
+                    </div>
+                    <button class="quote-btn">FREE QUOTE</button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </nav>
-            <div id="hero-element">
-                <div>
-                <h5>&#9679; Business Make Easy</h5>
+        </header>
+
+        <section id="hero-element">
+            <div class="hero-content">
+                <h5>● Business Made Easy</h5>
                 <h1>Reliably guiding your business to success</h1>
-                <p>Take your business to the next level with our sales agency for  bussinss idea management tools
-                    for you
-                </p>
-                <div><button class="quote">DISCOVER MORE</button>
-                    <u style="font-size: small;">Get A QUOTE</u>
-                </div></div>
+                <p>Take your business to the next level with our sales agency for business idea management tools tailored for you.</p>
+                <div class="hero-btns">
+                    <button class="quote-btn">DISCOVER MORE</button>
+                    <a href="#" class="cta-link">GET A QUOTE</a>
+                </div>
             </div>
-        </div>
-        <div class="service">
-            <div id="heading">
-                <h5>&#9679; OUR DEDICATED SERVICES</h5>
-                <h3>Service We Provide</h3>
+        </section>
+
+        <section class="service-section">
+            <div class="section-heading">
+                <h5>● OUR DEDICATED SERVICES</h5>
+                <h3>Services We Provide</h3>
             </div>
 
-            <div class="contain ">
+            <div class="contain">
                 <div class="card">
-                    <img src="https://img.icons8.com/?size=100&id=TFa5dmzOAaDh&format=png&color=000000" alt="">
+                    <img src="https://img.icons8.com/?size=100&id=TFa5dmzOAaDh&format=png&color=FFCC52" alt="Icon">
                     <h3>Strategic Planning</h3>
-                    <p>We hello a business generate new product ideas with intelligence</p>
-                    <button>READ MORE</button>
+                    <p>We help businesses generate new product ideas with deep market intelligence.</p>
+                    <button class="card-footer-btn">READ MORE</button>
                 </div>
                 <div class="card">
-                    <img src="https://img.icons8.com/?size=100&id=119739&format=png&color=000000" alt="">
+                    <img src="https://img.icons8.com/?size=100&id=119739&format=png&color=FFCC52" alt="Icon">
                     <h3>Market Analysis</h3>
-                    <p>We hello a bussiness generate new priduct ideas with intelligence</p>
-                    <button>READ MORE</button>
+                    <p>Comprehensive data analysis to position your brand effectively in the industry.</p>
+                    <button class="card-footer-btn">READ MORE</button>
                 </div>
                 <div class="card">
-                    <img src="https://img.icons8.com/?size=100&id=RObqaZnGmiJH&format=png&color=000000" alt="">
+                    <img src="https://img.icons8.com/?size=100&id=RObqaZnGmiJH&format=png&color=FFCC52" alt="Icon">
                     <h3>Finance Planning</h3>
-                    <p>We hello a bussiness genrate new priduct ideas with intelligence</p>
-                    <button>READ MORE</button>
+                    <p>Expert financial roadmaps to ensure long-term stability and growth for startups.</p>
+                    <button class="card-footer-btn">READ MORE</button>
                 </div>
                 <div class="card">
-                    <img src="https://img.icons8.com/?size=100&id=82690&format=png&color=000000" alt="">
+                    <img src="https://img.icons8.com/?size=100&id=82690&format=png&color=FFCC52" alt="Icon">
                     <h3>Investment Idea</h3>
-                    <p>We hello a bussiness genrate new priduct ideas with intelligence</p>
-                    <button>READ MORE</button>
+                    <p>Strategic investment advice backed by years of success and risk management.</p>
+                    <button class="card-footer-btn">READ MORE</button>
                 </div>
-
             </div>
-            <div class="end-ser">
-            <img id="imggee" src="https://img.icons8.com/?size=100&id=37962&format=png&color=000000" alt="">
-            <p class="sec-2-end">We are committed to create a change that matter</p>
+            
+            <div class="service-footer">
+                <img height="46px" width="45px" src="https://img.icons8.com/?size=100&id=37962&format=png&color=869196" alt="Icon">
+                <p>We are committed to creating change that matters.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="about-us">
-            <div class="about-img"><img height="400px" width="400px" src="./about.webp" alt=""></div>
-            <div>
+        <section class="about-us">
+            <div class="about-img">
+                <img src="./about.webp" alt="About Us">
+            </div>
+            <div class="about-content">
                 <div id="detail-ab">
-                    <h3>&#9679; About Us</h3>
-                    <h1>The essential steps for <br> business success</h1>
-                    <p>Our Objective is to offer a high-quality service and a dependable source of income to our
-                        investors while
-                        simultaneously minimizing any potential risks and automating and simplifying the relationship
-                    </p>
+                    <h3>● About Us</h3>
+                    <h2>The essential steps for business success</h2>
+                    <p>Our objective is to offer a high-quality service and a dependable source of income to our investors while simultaneously minimizing potential risks.</p>
                 </div>
-                <div class="about-detail">
-                    <div>
+                <div class="about-grid">
+                    <div class="about-text-items">
                         <div class="head">
-                            <h4>Business innovations</h3>
-                                <p>Best Working</p>
+                            <h4>Business innovations</h4>
+                            <p>Cutting edge strategies for modern markets.</p>
                         </div>
                         <div class="head">
-                            <h4>marketing solutions</h3>
-                                <p>Best Working</p>
+                            <h4>Marketing solutions</h4>
+                            <p>Data-driven results for your brand presence.</p>
                         </div>
                     </div>
-                    <div>
-                        <img height="200px" width="200px" src="./hero.jpeg" alt="">
+                    <div class="about-sub-img">
+                        <img src="./hero.jpeg" alt="Small Business">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="experi">
+        </section>
+
+        <section class="experi-section">
             <div class="banner">
-                <h1>Offering the best experience of business consulting</h1>
-                <button class="quote">DISCOVER MORE INFORMATION</button>
-                
-        </div> 
-        <div><div class="baner-detais">
-            <h1>25+</h1>
-            <h1>23k</h1>
-            <h1>226+</h1>
-            <h1>958+</h1>
-        </div></div>
-        
-        
+                <div class="banner-inner">
+                    <h2>Offering the best experience of business consulting</h2>
+                    <button class="quote-btn">DISCOVER MORE INFORMATION</button>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stats-box">
+                    <div class="stat-item"><h1>25+</h1><p>Years</p></div>
+                    <div class="stat-item"><h1>23k</h1><p>Clients</p></div>
+                    <div class="stat-item"><h1>226+</h1><p>Awards</p></div>
+                    <div class="stat-item"><h1>958+</h1><p>Projects</p></div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
-
 </html>
